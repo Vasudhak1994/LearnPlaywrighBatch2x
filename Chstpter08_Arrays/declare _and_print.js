@@ -26,3 +26,6 @@ console.log(mixed); // Output: [1, "Hello", true, null, undefined, { name: "John
 console.log(mixed[5].name); // Output: John (accessing object property)
 console.log(mixed[6][1]); // Output: 2 (accessing nested array element)
 
+console.log(mixed.at(-1)[1]);
+console.log(mixed.at(-4));
+
